@@ -1,4 +1,4 @@
-# 🌿 FloraSense AI — Plant & Flower Discovery App
+# 🌿 Plantnet AI — Plant & Flower Discovery App
 
 Upload a photo of any plant or flower and instantly discover its name, origins, habitat, history, cultural significance, and an emotional backstory — powered by OpenAI Vision + GPT-4o.
 

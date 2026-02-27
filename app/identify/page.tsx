@@ -101,7 +101,7 @@ export default function IdentifyPage() {
       <nav className="flex items-center justify-between px-6 md:px-12 py-5 border-b border-sage-100/50">
         <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <span className="text-2xl">🌿</span>
-          <span className="font-display font-semibold text-sage-700 text-lg">FloraSense</span>
+          <span className="font-display font-semibold text-sage-700 text-lg">Plantnet</span>
         </Link>
         {state === 'result' && (
           <button
