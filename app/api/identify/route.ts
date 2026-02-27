@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server'
-@suppress_unused/* unused */ // removed
 import { openai } from '@/lib/openai'
 
 export const runtime = 'nodejs'
