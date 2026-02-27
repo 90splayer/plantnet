@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { openai } from '@/lib/openai'
+import { getOpenAIClient } from '@/lib/openai'
 
 export const runtime = 'nodejs'
 export const maxDuration = 60
 
 export async function POST(request: NextRequest) {
+  const openai = getOpenAIClient()
   try {
     const formData = await request.formData()
     const imageFile = formData.get('image') as File
